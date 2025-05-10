@@ -6,7 +6,7 @@ const base = "MoneyPrinterTurbo";
 const isProd = process.env.NODE_ENV === "production";
 
 export default defineUserConfig({
-  lang: "zh-CN",
+  lang: "zh-CN", 
   base: `/${base}/`,
   bundler: viteBundler(),
   theme: defaultTheme({
